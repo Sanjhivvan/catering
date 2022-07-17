@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/catering/static/js/main.3e83076b.js",
+    "index.html": "/catering/index.html",
+    "main.3e83076b.js.map": "/catering/static/js/main.3e83076b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3e83076b.js"
+  ]
+}
