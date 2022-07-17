@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.buttom{
+  width: 200px !important;
+  font-size: 22px;
+}
+
+.how{
+  height: 250px !important;
+  width: 410px
+}
+
+*::placeholder{
+  color: blue;
+}
+
+.nli:active{
+padding-bottom: 5px;
+  border-bottom:2px solid black;
+
+}
