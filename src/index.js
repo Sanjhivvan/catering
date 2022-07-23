@@ -1,29 +1,14 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-function HalloweenY(){
-  return <h1>Odd</h1>
-}
-
-function HalloweenN(){
-  return <h1>Even</h1>
-}
-var a=parseInt(prompt("Enter Number"))
-function Halloween(props){
-  var a=props.a;
-  if(a%2==0){
-    return <HalloweenN/>;
-  }
-  return <HalloweenY/>
-}
-
+import "./index.css";
+import App from "./App";
+import {BrowserRouter} from "react-router-dom";
 ReactDOM.render(
-  <Halloween a={a} />,
-  document.getElementById('root')
-);
-
-
+<BrowserRouter>
+<App/>
+</BrowserRouter>
+,document.getElementById("root"));
 
 /*
 
